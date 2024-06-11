@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: monterrat;
+   background-color: rgb(28, 165, 10);
+   display: flex;
+}
+nav{
+background: #0c2f49;
+height: 80px;
+width: 100%;
+}
+label.logo{
+
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+ nav ul{
+    float:right;
+    margin-right:20px;
+    position: relative;
+    
+    
+ }
+ nav ul li
+ {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 px;
+ 
+
+   
+ }
+ a:hover{
+
+    background-color: rgb(3, 5, 0);
+    transform: .8s;  
+}
+nav ul li a{
+    color: rgb(216, 216, 216);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+   
+
+    
+}
